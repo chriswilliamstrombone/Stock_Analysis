@@ -10,7 +10,11 @@ For later use to look at an even larger set of stocks, Steve asked us to retool 
 ## Results
 
 - As Previously stated, Steve wanted us to initailly look at the value of DQ in 2017 and 2018. After creating the script to analyse DQ, the script found DQ had a decent amount of volume, but a yearly return yield of -63%, which clearly indicated that Steve should not invest in DQ.
-- We expanded the paramaters of the script to look at several stocks by nesting for loops to check the conditions of starting price, ending price, and ticker index number. As seen in this picture:
+- We expanded the paramaters of the script to look at several stocks by nesting for loops to check the conditions of starting price, ending price, and ticker index number.
+
+As seen in this picture:
+
+![For_Loop_Issue.png](Resources/For_Loop_Issue.png)
 
 - The code was refactored and ran 0.1484375 seconds faster for 2017 and 0.140625 seconds faster for 2018.
 
@@ -26,6 +30,9 @@ For later use to look at an even larger set of stocks, Steve asked us to retool 
 # Conclusion
 
 - Refactoring code is useful for programmers because it helps improve maintenance activities, streamlines code, and can improve speed as seen in the two comparison pictures for 2017 here:
+
+![AllStock2017.png](Resources/AllStock2017.png)
+![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png)
 
 - The larger the project or team, there can be more room for refactoring to cause more issues than it solves, taking time away from developing new features for a script, or even forcing a team to revert to a previous version of the code.
 
