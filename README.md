@@ -21,7 +21,7 @@ As seen in this picture:
 
 ## Challenges
 
-- I had issues nesting the j loop into the i loop, and increasing the ticerIndex count within the two loops.
+- I had issues nesting the j loop into the i loop, and increasing the tickerIndex count within the two loops.
 
 - I also had a divide by zero error because I mislabeled "tickerStartingPrice" in the j loop to just "StartingPrice"
 
@@ -36,4 +36,4 @@ As seen in this picture:
 
 - The larger the project or team, there can be more room for refactoring to cause more issues than it solves, taking time away from developing new features for a script, or even forcing a team to revert to a previous version of the code.
 
-- Refactoring this script was fairly straightforwad, as it had few improvements made on the original. The script now runs faster, but it took several hours to debug.
+- Refactoring this script was fairly straightforwad, as it had few improvements made on the original. The script now runs faster, but it took several hours to debug due to the issues I had with mislabeling variables.
