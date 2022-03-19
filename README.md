@@ -24,6 +24,27 @@ As seen here:
 
 - the execution of the script is now much faster, and Steve can use this script to analyze even more stocks if he would like.
 
+### 2017 vs 2018 Stock Performances
+
+While 2017 saw positive growth for the portfolio, 2018 had a different story to tell.  Only ENPH and RUN produced a positive ROI bewteen the two years, and the other ten options saw a negative return.
+
+![All_Stocks_2017.png](Resources/All_Stocks_2017.png)]
+
+![All_Stocks_2018.png](Resources/All_Stocks_2018.png)]
+
+The portfolio did see a decrease overall, but many factors, such as econmic and industry related influxes, impact the growth or decline of a portfolio. Steve should look into these influences before advising his parents on which direction to move with their investments.
+
+### Execution
+
+- I was able to improve the runtime of the script by over 80%.
+
+![AllStock2017.png](Resources/AllStock2017.png)
+![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png)
+
+![AllStock2017.png](Resources/AllStock2018.png)
+![VBA_Challenge_2017.png](Resources/VBA_Challenge_2018.png)
+
+
 
 ## Challenges
 
@@ -35,10 +56,7 @@ As seen here:
 
 # Conclusion
 
-- Refactoring code is useful for programmers because it helps improve maintenance activities, streamlines code, and can improve speed as seen in the two comparison pictures for 2017 here:
-
-![AllStock2017.png](Resources/AllStock2017.png)
-![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png)
+- Refactoring code is useful for programmers because it helps improve maintenance activities, streamlines code, and can improve speed as seen previously stated.
 
 - The larger the project or team, there can be more room for refactoring to cause more issues than it solves, taking time away from developing new features for a script, or even forcing a team to revert to a previous version of the code.
 
