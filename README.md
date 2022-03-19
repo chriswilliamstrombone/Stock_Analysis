@@ -16,14 +16,20 @@ As seen in this picture:
 
 ![For_Loop_Issue.png](Resources/For_Loop_Issue.png)
 
-- The code was refactored and ran 0.1484375 seconds faster for 2017 and 0.140625 seconds faster for 2018.
+- The loop and subsequent if statments were further improved upon to speed up the script over 80%.
+
+As seen here:
+
+![Improved_For_Loop.png](Resources/Improved_For_Loop.png)
+
+- the execution of the script is now much faster, and Steve can use this script to analyze even more stocks if he would like.
 
 
 ## Challenges
 
-- I had issues nesting the j loop into the i loop, and increasing the tickerIndex count within the two loops.
+- I had issues nesting the i loop into the tickerIndex loop, and increasing the tickerIndex count within the two loops.
 
-- I also had a divide by zero error because I mislabeled "tickerStartingPrice" in the j loop to just "StartingPrice"
+- I also had a divide by zero error because I mislabeled "tickerStartingPrice" in the i loop to just "StartingPrice"
 
 - I commented out most of the code to work line by line to find my issues and added the rest of the code back in slowly to make sure everything still worked.
 
@@ -36,4 +42,8 @@ As seen in this picture:
 
 - The larger the project or team, there can be more room for refactoring to cause more issues than it solves, taking time away from developing new features for a script, or even forcing a team to revert to a previous version of the code.
 
-- Refactoring this script was fairly straightforwad, as it had few improvements made on the original. The script now runs faster, but it took several hours to debug due to the issues I had with mislabeling variables.
+- Refactoring this script added new variables to our For loops and if statemenets, which creates room for errors such as missing a refrence or calling for the wrong variable on the wrong line.
+
+- There was a marked improvement in runtime, as the script now runs faster over 80% faster. 
+
+- It can easily breakdown larger datasets faster than the original code, but it took several hours, and many sessions revisiting problems to debug due to the issues I had with mislabeling variables.
